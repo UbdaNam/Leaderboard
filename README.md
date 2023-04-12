@@ -15,8 +15,6 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -25,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [TO_DO_LIST] <a name="about-project">
+# 📖 [Leaderboard] <a name="about-project">
 Hi there! Welcome to my Leaderboard project</a>
 
 This is a Leaderboard list web app that fetches real time data from the server to show everyones rank in their respective position in the linderboard.
@@ -64,7 +62,11 @@ In order to run this project you need Web browser and code editor (Visual studio
 
 ### Setup
 
-Clone this repository to your desired folder:git clone https://github.com/UbdaNam/Leaderboard.git
+Clone this repository to your desired folder:
+
+``` snippet
+  git clone https://github.com/UbdaNam/Leaderboard.git
+```
 
 ### Install
 
@@ -82,7 +84,7 @@ On your computer's keyboard press f5 or run it with live server
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Ubda Nam**
 
