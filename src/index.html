@@ -16,53 +16,19 @@
     <div class="list-container">
       <div class="list-title">
         <h3>Recent scores</h3>
-        <button>
+        <button class="refreshBtn">
           Refresh
         </button>
       </div>
       <table>
-        <tr>
-          <td>
-            Name: 100
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Name: 20
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Name: 50
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Name: 78
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Name: 125
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Name: 77
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Name: 42
-          </td>
-        </tr>
       </table>
     </div>
     <div class="add-container">
       <h3>Add your score</h3>
-      <input type="text" placeholder="Your name">
-      <input type="number" placeholder="Your score">
-      <button>Submit</button>
+      <input type="text" required placeholder="Your name" id="name">
+      <input type="number" required placeholder="Your score" id="score">
+      <button class="submit">Submit</button>
+      <h5></h5>
     </div>
   </section>
 </body>
