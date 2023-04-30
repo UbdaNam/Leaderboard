@@ -19,7 +19,7 @@ const baseURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/
     successEl.textContent = '';
   };
   showList();
-  refreshBtn.addEventListener('click', showList)
+  refreshBtn.addEventListener('click', showList);
   // Add score
   const nameInputEl = document.getElementById('name');
   const scoreInputEl = document.getElementById('score');
