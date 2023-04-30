@@ -4,25 +4,22 @@ import getData from './modules/getData.js';
 import renderList from './modules/renderList.js';
 
 const baseURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
-const newGame = {
-  name: 'Basket Ball',
-};
 
 (async () => {
   const successEl = document.querySelector('h5');
   // Create new Game
-  const idResponse = await postData(baseURL, newGame);
-  const Id = idResponse.result.split(' ')[3];
+  const Id = 'ERF7Cl7Xl8LrTKKeTaGA';
   const myGameURL = `${baseURL}/${Id}/scores/`;
   // Render List
   const refreshBtn = document.querySelector('.refreshBtn');
-  refreshBtn.addEventListener('click', async () => {
+  const showList = async () => {
     const response = await getData(myGameURL);
     const scores = response.result;
     renderList(scores);
     successEl.textContent = '';
-  });
-
+  };
+  showList();
+  refreshBtn.addEventListener('click', showList)
   // Add score
   const nameInputEl = document.getElementById('name');
   const scoreInputEl = document.getElementById('score');
